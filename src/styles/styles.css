@@ -1,0 +1,44 @@
+@import "normalize.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 255, 0.4) rgb(0, 0, 0, 0.3);
+  -webkit-tap-highlight-color: transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255, 0.4);
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--app-background-color);
+}
+
+body.menu-open {
+  position: fixed;
+}
+
+#app {
+  height: 100%;
+}

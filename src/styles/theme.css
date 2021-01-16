@@ -1,0 +1,93 @@
+:root {
+  --border-radius: 0;
+  --transitions: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+:root {
+  --spinner-background-color: #e0e0e0;
+  --spinner-border-color: #1565c0;
+  --app-background-color: #fff;
+  --app-text-color: #373737;
+  --app-link-text-color: #1565c0;
+  --nav-background-color: #f5f5f5;
+  --nav-border-color: #e0e0e0;
+  --menu-item-text-color: #757575;
+  --menu-item-hover-background-color: #e0e0e0;
+  --menu-item-hover-text-color: #757575;
+  --menu-active-background-color: #1565c0;
+  --menu-active-text-color: #fff;
+  --primary-button-background-color: #1565c0;
+  --primary-button-text-color: #fff;
+  --primary-button-hover-background-color: #357dce;
+  --primary-button-hover-text-color: #fff;
+  --primary-button-box-shadow-color: #083a72;
+  --normal-button-background-color: #e0e0e0;
+  --normal-button-text-color: #373737;
+  --normal-button-hover-background-color: #ededed;
+  --normal-button-hover-text-color: #373737;
+  --normal-button-box-shadow-color: #a1a1a1;
+  --delete-button-text-color: #ba000d;
+  --delete-button-hover-text-color: #ba000d;
+  --input-background-color: #f5f5f5;
+  --input-border-color: #e0e0e0;
+  --input-hover-border-color: #5695dc;
+  --input-focus-background-color: #fff;
+  --input-focus-border-color: #5695dc;
+  --input-focus-box-shadow-color: #5695dc;
+  --input-text-color: #373737;
+  --input-focus-text-color: #373737;
+  --input-placeholder-text-color: #9e9e9e;
+  --input-search-icon-text-color: #373737;
+  --champion-heading-accent-color: #1565c0;
+  --champion-list-background-color: #616161;
+  --champion-list-text-color: #e0e0e0;
+  --champion-list-hover-background-color: #e0e0e0;
+  --champion-list-hover-text-color: #616161;
+  --champion-list-focus-box-shadow-color: #adadad;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --spinner-background-color: #373737;
+    --spinner-border-color: #e0e0e0;
+    --app-background-color: #212121;
+    --app-text-color: #e0e0e0;
+    --app-link-text-color: #5695dc;
+    --nav-background-color: #1b1b1b;
+    --nav-border-color: #373737;
+    --menu-item-text-color: #a4a4a4;
+    --menu-item-hover-background-color: #373737;
+    --menu-item-hover-text-color: #e0e0e0;
+    --menu-active-background-color: #1565c0;
+    --menu-active-text-color: #fff;
+    --primary-button-background-color: #1565c0;
+    --primary-button-text-color: #fff;
+    --primary-button-hover-background-color: #1257a6;
+    --primary-button-hover-text-color: #fff;
+    --primary-button-box-shadow-color: #5695dc;
+    --normal-button-background-color: #424242;
+    --normal-button-text-color: #e0e0e0;
+    --normal-button-hover-background-color: #373737;
+    --normal-button-hover-text-color: #e0e0e0;
+    --normal-button-box-shadow-color: #858585;
+    --delete-button-text-color: #ef5350;
+    --delete-button-hover-text-color: #ef5350;
+    --input-background-color: #1b1b1b;
+    --input-border-color: #484848;
+    --input-hover-border-color: #5695dc;
+    --input-focus-background-color: #373737;
+    --input-focus-border-color: #5695dc;
+    --input-focus-box-shadow-color: #5695dc;
+    --input-text-color: #e0e0e0;
+    --input-focus-text-color: #e0e0e0;
+    --input-placeholder-text-color: #858585;
+    --input-search-icon-text-color: #e0e0e0;
+    --champion-heading-accent-color: #1565c0;
+    --champion-list-background-color: #424242;
+    --champion-list-text-color: #e0e0e0;
+    --champion-list-hover-background-color: #e0e0e0;
+    --champion-list-hover-text-color: #424242;
+    --champion-list-focus-box-shadow-color: #858585;
+  }
+}
